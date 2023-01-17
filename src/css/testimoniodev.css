@@ -1,0 +1,60 @@
+.globalperrosdev{
+    background-color: white;
+     background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100vw;
+   height: 150vh;
+ }
+ 
+ 
+ 
+ .contenedortestimoniodev{
+ 
+     width: 1170;
+     height: 318;
+     margin: 10px 10px 50px;
+     margin-top: 2px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #ffffff;
+     box-shadow: 0 3px 13px 1px rgb(0 0 0 /9%);
+     
+ }
+ 
+ .imagentestimoniodev{
+     height: 155px;
+     width: auto;
+ }
+ 
+ .contenedortextotestimoniodev{
+     width: 100%;
+     font-size: 16px;
+     text-align: center;
+     padding: 20px;
+     font-family: Lato, sans-serif;
+     line-height: 1.5rem;
+ 
+ 
+ }
+ 
+ .nombretestimoniodev{
+     font-size: 1.3rem;
+     text-shadow: none;
+ }
+ 
+ .cargotestimoniodev{
+     font-size: 1.3rem;
+     margin-top: 15px;
+     padding-bottom: 10px;
+ }
+ .textotestimoniodev{
+     font-weight: 600;
+     font-family: 'Open Sans', sans-serif;
+     border-radius: 5px;
+     color:black;
+     font-size: 14px;
+     text-shadow: none;
+     text-align: justify;
+ }

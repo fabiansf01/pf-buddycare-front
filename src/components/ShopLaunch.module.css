@@ -1,0 +1,153 @@
+.homeContainer {
+  background-color: white;
+  
+  
+}
+
+.fontBlanco{
+
+  color:white;
+}
+
+
+.newcards{
+
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 4px;
+}
+
+.fontdescribe{
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 5px;
+	color:black;
+	font-size: 9px;
+	  text-shadow: none;
+
+}
+
+
+.fontdescribetitle{
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 5px;
+	color:black;
+	font-size: 14px;
+	  text-shadow: none;
+	  
+
+}
+
+.fontdescribeprecio{
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 5px;
+	color:black;
+	font-size: 22px;
+	  text-shadow: none;
+	  
+
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+  width: 200px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.therow {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 8000px;
+  margin-top: 5px;
+}
+
+
+.fuenteglobal{
+	font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 5px;
+  color:black;
+  font-size: 16px;
+	text-shadow: none;
+  }
+
+
+
+  .myButtonBuscar {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+  width: 180px;
+  height: 50px;
+}
+.myButtonBuscar:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButtonBuscar:active {
+	position:relative;
+	top:1px;
+}
+
+
+.campoBuscar {
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	width: 300px;
+	height: 50px;
+	border-radius:5px;
+	border:1px solid #566963;
+  }
+
+
+  .flexcontainer {
+	height: 50px;
+  background-color: #EEE;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  }
+  
+  .flexcontainer > * {
+	margin: 0 110px;  /* Agrega un espacio de 10px a la izquierda y derecha de cada elemento */
+  }

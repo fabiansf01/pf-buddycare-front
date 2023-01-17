@@ -1,0 +1,39 @@
+.footercontenedor {
+	 background-color: #7952b3;
+    min-height: 10vh;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+    
+}
+
+
+
+.flexbox-container {
+	background-color: #7952b3;
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.flexbox-container > div {
+	background-color: #7952b3;
+	width: 50%;
+	padding: 10px;
+  
+}
+
+.flexbox-container > div:first-child {
+	margin-right: 20px;
+}
+
+
+.fuentefooter{
+    font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 5px;
+	color:white;
+	font-size: 20px;
+    text-shadow: none;
+	text-align: center;
+}

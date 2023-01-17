@@ -1,0 +1,49 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// or
+import { GoogleLogin } from 'react-google-login';
+import Swal from 'sweetalert2';
+
+
+const Registrese = () => {
+ 
+    const respuestaGoogle = (response) => {
+          
+     // Swal.fire({icon: "error",title: "LOGIN", html: "LOGIN EXITOSO"})
+     console.log(response);  
+    };
+ 
+    const respuestafailGoogle = (response) => {
+         
+     // Swal.fire({icon: "error",title: "LOGIN FALLIDO", html: "LOGIN FALLIDO"})
+     console.log(response); 
+    };
+ 
+
+    const xresponseGoogle = (response) => {
+      console.log(response);
+    }
+
+
+
+
+
+    return (
+    <div>
+
+<GoogleLogin
+    clientId="1095507538368-pb7a4hgship0e6jntuprt4vdlaj1e7so.apps.googleusercontent.com"
+    buttonText="Login"
+    onSuccess={respuestaGoogle}
+    onFailure={respuestafailGoogle}
+    cookiePolicy={'single_host_origin'}
+  />,
+
+
+
+    </div>
+  )
+}
+
+export default Registrese
